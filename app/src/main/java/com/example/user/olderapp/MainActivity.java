@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent IsLost = new Intent();
                 IsLost.setClass(MainActivity.this,MapsActivity.class );
                 startActivity(IsLost);
-            }
+            }//
         });
 
         B4.setOnClickListener(new Button.OnClickListener() {
