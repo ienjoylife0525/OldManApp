@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         B1.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v){
                 Intent EatDrug = new Intent();
-                EatDrug.setClass(MainActivity.this,);
+                EatDrug.setClass(MainActivity.this,DrugActivity.class);
                 startActivity(EatDrug);
             }
         });
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         B2.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v){
                 Intent PhoneCall = new Intent();
-                PhoneCall.setClass(MainActivity.this,);
+                PhoneCall.setClass(MainActivity.this,phone.class );
                 startActivity(PhoneCall);
             }
         });
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         B3.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v){
                 Intent IsLost = new Intent();
-                IsLost.setClass(MainActivity.this, );
+                IsLost.setClass(MainActivity.this,MapsActivity.class );
                 startActivity(IsLost);
             }
         });
