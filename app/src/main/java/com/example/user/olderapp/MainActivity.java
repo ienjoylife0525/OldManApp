@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
         B4.setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v){
                 Intent SelfInfo = new Intent();
-                SelfInfo.setClass(MainActivity.this,SelfInfo );
-                startActivity(SelfInfo,4);
+                SelfInfo.setClass(MainActivity.this,SelfInfo.class );
+                startActivity(SelfInfo);
             }
         });
     }
