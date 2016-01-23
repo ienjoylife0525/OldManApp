@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:text="我迷路了"
+    android:id="@+id/policecall"
+            android:onClick="call_police"
+            android:textSize="50dp"
+            android:layout_below="@+id/help"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我是誰"
+            android:id="@+id/family"
+           android:textSize="50dp"
+            android:onClick="callfamily"
+            android:layout_marginTop="44dp"
+            android:layout_below="@+id/policecall"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="救命 ! 我好痛"
+            android:id="@+id/help"
+            android:textSize="50dp"
+    android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="62dp"
+            android:onClick="helpme" />
+</RelativeLayout>
